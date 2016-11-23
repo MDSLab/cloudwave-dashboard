@@ -232,6 +232,8 @@ class SamplesView(TemplateView):
 				volume = round((8* json_sample["volume"] / 1000 / 1000),3)
 				resource_name = json_sample["resource_id"]
 
+			elif json_sample["metadata"]["display_name"] == "ti-logcollector": 
+				resource_name = "ti-app"
 
 			else: resource_name = json_sample["metadata"]["display_name"]
 			#--------------------------------------------------------------
