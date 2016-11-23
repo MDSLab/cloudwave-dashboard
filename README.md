@@ -14,4 +14,4 @@ In function of the Openstack version released among the years the panel was test
   * rpm -Uvh cw-dashboard-3.1.0-155.x86_64.rpm
 
 ##Configuration guide
-Inside the panel it was created a configuration file (realtime.cfg) where it is possibile to specify the metrics that will appear in the panel menù, included those related to the network interfaces.
+Inside the panel it was created a configuration file (``realtime.cfg``) where it is possibile to specify the metrics that will appear in the panel menù, included those related to the network interfaces.
